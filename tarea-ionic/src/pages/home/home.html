@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Tarea Ionic
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding id="body">
+  <div block id="loginContainer">
+    <h1 block>Servomatic</h1>
+
+    <label block>Usuario</label>
+    <input block type="text" [(ngModel)]="user" name="user" />
+
+    <label block>Contraseña</label>
+    <input block type="password" [(ngModel)]="pass" name="pass" />
+
+    <button id = "loginButton" block ion-button (click)="logInAlert()">Iniciar sesión</button>
+
+    <p block id = "forgotPass" (click)="alertRenew()"> ¿Olvidó su contraseña? </p>
+  </div>
+
+</ion-content>
