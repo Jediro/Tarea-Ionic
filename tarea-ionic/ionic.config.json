@@ -1,0 +1,7 @@
+{
+  "name": "Tarea Ionic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

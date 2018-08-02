@@ -1,0 +1,74 @@
+page-home {
+
+}
+
+#body {
+    background: #4565b2;
+}
+
+input {
+    color: #456;
+    font-weight: default;
+    margin-bottom: 15px;
+    display: inline-block;
+    margin-left: 10%;
+    width: 80%;
+    margin-right: auto;   
+}
+
+label {
+    color: #1b2e5c;
+    size: 1.4em;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 10%;
+    width: 80%;
+    margin-right: auto;    
+}
+
+
+
+#loginContainer {
+    border-radius: 2px;
+    display: inline-block;
+    background: #F2D295;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    height: 80%;
+}
+
+#loginButton {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+h1 {
+    color: #1b2e5c;
+    font-size: 2.4em;
+    font-weight: bold;
+    text-align: center;    
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#forgotPass{
+    color: #27407c;
+    font-weight: bold;
+    text-align: center;    
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;    
+}
+
+#forgotPass:hover {
+    color: #429ce6;
+}
+
+#forgotPass:active {
+    color: #1b2e5c;
+}
