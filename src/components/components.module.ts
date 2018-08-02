@@ -1,11 +1,8 @@
 import { NgModule } from '@angular/core';
-import { AlertRenewComponent } from './alert-renew/alert-renew';
-import { LoginAlertComponent } from './login-alert/login-alert';
+
 @NgModule({
-	declarations: [AlertRenewComponent,
-    LoginAlertComponent],
+	declarations: [],
 	imports: [],
-	exports: [AlertRenewComponent,
-    LoginAlertComponent]
+	exports: []
 })
 export class ComponentsModule {}
