@@ -22,9 +22,15 @@ export class HomePage {
 
   logInAlert() {
     if (this.user != "" && this.pass != "" && this.user != null && this.pass != null) {
-      this.showAlert("Lo sentimos", "Nuestros servidores están ocupados. Inténtalo más tarde.")
+      this.showAlert("Lo sentimos", "Nuestros servidores están ocupados. Inténtalo más tarde.")      
+    } 
+  }
+
+  buttonCondition() {
+    if (this.user != "" && this.pass != "" && this.user != null && this.pass != null) {
+      return false;     
     } else {
-      this.presentToast("Por favor escribe tu usuario y contraseña.")
+      return true;
     }
   }
 

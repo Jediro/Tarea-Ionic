@@ -12,8 +12,18 @@ export class HomePage {
   user : string = this.user
   pass : string = this.pass
 
+  buttonCondition : boolean = this.buttonCondition  
+
   constructor(public navCtrl: NavController, public alertCtrl: AlertController, public toastCtrl : ToastController) {
 
+  }
+
+  checkIsEnabled() {
+    if (this.user != "" && this.pass != "" && this.user != null && this.pass != null) {
+      this.buttonCondition = true;
+    } else {
+      this.buttonCondition = false;
+    }
   }
 
   alertRenew() {
@@ -23,9 +33,7 @@ export class HomePage {
   logInAlert() {
     if (this.user != "" && this.pass != "" && this.user != null && this.pass != null) {
       this.showAlert("Lo sentimos", "Nuestros servidores están ocupados. Inténtalo más tarde.")
-    } else {
-      this.presentToast("Por favor escribe tu usuario y contraseña.")
-    }
+    } 
   }
 
   showAlert(title, subTitle) {

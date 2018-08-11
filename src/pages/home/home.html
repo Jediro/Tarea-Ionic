@@ -16,7 +16,7 @@
     <label block>Contraseña</label>
     <input block type="password" [(ngModel)]="pass" name="pass" />
 
-    <button id = "loginButton" block ion-button (click)="logInAlert()">Iniciar sesión</button>
+    <button id = "loginButton" block ion-button  [disabled]="buttonCondition()" (click)="logInAlert()">Iniciar sesión</button>
 
     <p block id = "forgotPass" (click)="alertRenew()"> ¿Olvidó su contraseña? </p>
   </div>
