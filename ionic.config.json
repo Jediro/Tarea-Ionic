@@ -1,0 +1,8 @@
+{
+  "name": "Tarea Ionic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "d4177b53"
+}
